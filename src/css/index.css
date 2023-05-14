@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+
+@font-face {
+  font-family: brasley-regular;
+  src: url(./../font/Brasley-Regular.otf);
+}
+
+@font-face {
+  font-family: brasley-medium;
+  src: url(./../font/Brasley-Medium.otf);
+}
+
+@font-face {
+  font-family: eurostile;
+  src: url(./../font/eurostile-2-extended-bold.ttf);
+}
+
+@font-face {
+  font-family: widy;
+  src: url(./../font/Widy-Extra-Bold.otf);
+}
+
+body {
+  margin: 0;
+  font-family: eurostile;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
