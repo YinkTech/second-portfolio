@@ -17,7 +17,7 @@ const Portfolio = () => {
 
           {PortfolioData.map((data, id) => {
             return (
-              <div className='p-3 py-5  sm:p-12 sm:py-12 mb-20' key={id} style={{boxShadow: 'rgb(230 230 230) 1px 5px 15px 5px ', borderRadius: '50px 50px'}}
+              <div className='p-3 py-5  sm:p-12 sm:py-12 mb-20 portfolio-container' key={id} style={{boxShadow: 'rgb(230 230 230) 1px 5px 15px 5px '}}
               data-aos-duration="1000"
               data-aos-delay="300"
               data-aos-easing="ease-in-out"

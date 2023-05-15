@@ -8,9 +8,9 @@ const Footer = () => {
     data-aos-easing="ease-in-out"
     data-aos="fade-zoom-in"
     >
-      <h3 className='text-[#008dea] text-4xl p-5'>YinkTech</h3>
+      <h3 className='text-[#008dea] text-3xl p-5'>YinkTech</h3>
 
-      <div className='sm:flex sm:justify-center text-xl font-extrabold p-2 px-9' style={{columnGap: '2rem', listStyle: 'none'}}>
+      <div className='sm:flex sm:justify-center text-lg font-extrabold p-2 px-9' style={{columnGap: '2rem', listStyle: 'none'}}>
         <li>About</li>
         <li>Skills</li>
         <li>Portfolio</li>
@@ -23,7 +23,7 @@ const Footer = () => {
         <a href="mailto:layink4dat@gmail.com"> <i className='ms-3 bi bi-envelope-at text-[#018bed]' style={{fontSize: '35px'}}></i></a>
       </div>
 
-      <div className='mx-5 text-sm sm:text-4xl font-bold' >
+      <div className='mx-5 text-sm sm:text-2xl font-bold' >
         <span>
           &copy;YinkTech All Right Reserved.
         </span>

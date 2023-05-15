@@ -1,11 +1,11 @@
 import React from 'react';
-import AiImg from './../img/ai-bg.png'
+import AiImg from './../assets/img/ai-bg.png'
 
 const Main = () => {
   return (
     <div className=' main-back'>
-      <div className='flex flex-col w-auto md:flex-row items-center px-2 sm:px-[100px]'>
-        <div className='md:w-[50%]'
+      <div className='flex flex-col w-auto lg:flex-row items-center px-2 lg:px-[100px]'>
+        <div className='lg:w-[50%]'
         data-aos-duration="1000"
         data-aos-delay="300"
         data-aos-easing="ease-in-out"
@@ -38,7 +38,7 @@ const Main = () => {
         data-aos-delay="300"
         data-aos-easing="ease-in-out"
         data-aos="flip-right" >
-          <img src={AiImg} alt="AiImg" className='hidden sm:block ' style={{width: 'auto', height: 'auto'}} />
+          <img src={AiImg} alt="AiImg" className='hidden lg:block ' style={{width: 'auto', height: 'auto'}} />
         </div>
       </div>
     </div>

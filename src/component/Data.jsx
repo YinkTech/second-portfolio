@@ -1,8 +1,8 @@
 
-import stock from './../projects/stock-desktop1.png';
-import coins from './../projects/coins-desktop1.png';
-import movies from './../projects/movie-desktop1.png';
-import home from './../projects/ome-heart.png';
+import stock from './../assets/projects/stock-desktop1.png';
+import coins from './../assets/projects/coins-desktop1.png';
+import movies from './../assets/projects/movie-desktop1.png';
+import home from './../assets/projects/ome-heart.png';
 
 export const SkillData = [
   {

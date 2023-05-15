@@ -7,9 +7,10 @@ ul {
   column-gap: 3.5rem;
   font-size: 24px;
   font-weight: bolder;
+  position: relative;
 }
 
-.navBar ul li{
+.navBar ul li {
   color: #394247;
   font-size: 24px;
   transition: 0.3s ease-in-out;
@@ -22,7 +23,6 @@ ul {
 .navbar.active {
   top: 5rem;
   background: #fff;
-  transition: all ease-in-out 0.7s;
 }
 
 .main-back {
@@ -52,4 +52,43 @@ ul {
   border-radius: 50px;
   width: 0%;
   transition: width 0.5s ease-in-out;
+}
+
+.aboutus-div {
+  border-radius: 10px 10px;
+}
+
+.portfolio-container {
+  border-radius: 10px 10px;
+}
+
+/* Style form */
+
+input {
+  font-size: 20px;
+  width: -webkit-fill-available;
+  font-weight: 100;
+  color: #9d9696;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea {
+  font-size: 20px;
+  width: -webkit-fill-available;
+  font-weight: 100;
+  color: #9d9696;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+fieldset {
+  padding: 20px;
+  border-radius: 10px;
 }

@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from './component/Header'
-import Main from './component/Main'
 import About from './component/About'
 import Skills from './component/Skills'
 import AOS from 'aos';
@@ -9,6 +8,7 @@ import Separator from './component/Separator'
 import Portfolio from './component/Portfolio'
 import Contact from './component/Contact'
 import Footer from './component/Footer'
+import Main from './component/Main';
 
 const App = () => {
   AOS.init();

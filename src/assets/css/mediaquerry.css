@@ -1,0 +1,14 @@
+
+@media (min-width: 768px) {
+  .aboutus-div {
+    border-radius: 90px 90px;
+  }
+
+  .portfolio-container {
+    border-radius: 50px 50px;
+  }
+
+  input {
+    font-size: 26px;
+  }
+}

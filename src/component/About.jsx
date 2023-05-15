@@ -11,7 +11,7 @@ const About = () => {
       >
       <div className='px-2 sm:px-[100px] md:py-9' style={{fontFamily: 'brasley-medium'}}>
         <h3 className=' text-[#008dea] md:text-6xl text-3xl font-bold uppercase text-center p-9'>About</h3>
-        <div className='bg-[#f4f5f7c0] py-10 p-3 md:text-4xl text-center shadow-sm text-[#5d656b] flex flex-col md:py-28 md:px-20' style={{borderRadius: '90px 90px'}}>
+        <div className='bg-[#f4f5f7c0] py-10 md:text-xl  lg:text-4xl text-center shadow-sm text-[#5d656b] flex flex-col md:py-28 md:px-20 aboutus-div'>
             <span className='mb-9'>
               I first became thrilled with Software engineering in 2019. I was with a friend and he
               was telling me about this thing called Python and how it could automate things.
