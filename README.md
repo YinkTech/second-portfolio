@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-> [View Portfolio](https://yinktech.github.io/portfolio/)
+> [View Portfolio](https://blueportfolio.vercel.app/)
 
 ## Author
 
