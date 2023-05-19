@@ -38,7 +38,7 @@ const Contact = () => {
               <form action="" className=' pb-44'>
                 <fieldset className=' border-2 border-[#64b7f2] block mb-10'>
                   <legend className='text-2xl px-2 font-thin  text-[#616161]'>Name</legend>
-                  <input type="text" autoFocus placeholder='Eg: Love Modeyin Gift' className=' font-thin'/>
+                  <input type="text" placeholder='Eg: Love Modeyin Gift' className=' font-thin'/>
                 </fieldset>
 
                 
